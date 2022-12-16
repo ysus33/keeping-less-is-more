@@ -35,7 +35,8 @@ We provide script `./Sample/RGB-D/test_scan_localization.sh` for localization te
 
 original map             |  sparsified map
 :-------------------------:|:-------------------------:
-![]([https://...Dark.png](https://github.com/ysus33/keeping-less-is-more/blob/main/figure/local_ori.gif))  |  ![]([https://...Ocean.png](https://github.com/ysus33/keeping-less-is-more/blob/main/figure/local_cull.gif))
+![](https://github.com/ysus33/keeping-less-is-more/blob/main/figure/local_ori.gif)  |  ![](https://github.com/ysus33/keeping-less-is-more/blob/main/figure/local_cull.gif)
+
 Video above is the visualization of localization process on scene0000 with pre-built `.pcd` file and `mappoints.txt` file.
 
 ## Evaluation
