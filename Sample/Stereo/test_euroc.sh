@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pathLOG=./result
-pathDataset=/mnt/data3//EuRoC/MH01
+pathDataset=/mnt/data3/EuRoC/MH01
 Data=$(basename $pathDataset)
     
 mkdir -p $pathLOG
