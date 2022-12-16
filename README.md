@@ -33,11 +33,9 @@ To save map, uncomment the line `SLAM.SaveMap()` in `rgbd_scan.cc ` or `stereo_e
 To load map, add the line `Map.mapfile: /directory/map.bin` at the end of the .yaml file. If the map file is valid, system would run with an localization mode automatically.
 We provide script `./Sample/RGB-D/test_scan_localization.sh` for localization test on ScanNet that performs localization on scene0000_01 against the two version of maps build from scene0000_00. Running this after `./Sample/RGB-D/test_scan.sh` will produce the compared localization results from original and sparsified map.
 
-<figure class="half">
-    <img src="[http://yyy.jpg](https://github.com/ysus33/keeping-less-is-more/blob/main/figure/local_ori.gif)">
-    <img src="[http://xxx.jpg](https://github.com/ysus33/keeping-less-is-more/blob/main/figure/local_cull.gif)">
-figure>
-
+original map             |  sparsified map
+:-------------------------:|:-------------------------:
+![]([https://...Dark.png](https://github.com/ysus33/keeping-less-is-more/blob/main/figure/local_ori.gif))  |  ![]([https://...Ocean.png](https://github.com/ysus33/keeping-less-is-more/blob/main/figure/local_cull.gif))
 Video above is the visualization of localization process on scene0000 with pre-built `.pcd` file and `mappoints.txt` file.
 
 ## Evaluation
