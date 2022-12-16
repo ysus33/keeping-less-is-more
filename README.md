@@ -3,7 +3,7 @@ Authors: Yeonsoo Park, Soohyun Bae
 
 This repository is an implementation of the paper [**Keeping Less is More: Point Sparsification for Visual SLAM**](https://arxiv.org/abs/2207.00225) based on ORB-SLAM2.
 
-<img width="100%" src="https://github.com/ysus33/keeping-less-is-more/blob/main/figure/door.gif"/>
+<img width="80%" src="https://github.com/ysus33/keeping-less-is-more/blob/main/figure/door.gif"/>
 
 Our sparsification module is implemented on `MatchCuller.cc` and applied in local BA process of `Optimizer.cc`.
 Several modifications are done from the original implementation for reliable test.
